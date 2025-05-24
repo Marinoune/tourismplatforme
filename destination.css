@@ -1,0 +1,156 @@
+body {
+    height: auto;
+    width: auto;
+    background-image: url("./assets/destination/background-destination-desktop.jpg");
+    background-repeat: no-repeat;
+    margin: 0%;
+    position: absolute;
+}
+.one1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+.hr1 {
+    background-color:  rgba(255, 255, 255, 0.096);
+    translate: -535px 75px;
+    backdrop-filter: blur(10px);
+    width: 415px;
+    height: 2px;
+    border: none;
+}
+nav {
+    display: flex;
+    gap: 40px;
+    translate: 580px 50px;
+    height: 70px;
+    width: 700px;
+    background-color:  rgba(255, 255, 255, 0.096);
+    backdrop-filter: blur(10px);
+}
+.logo {
+    translate: -1055px 63px;
+    height: 40px;
+
+}
+.links {
+    position: relative;
+    translate: 150px 25px;
+    color: rgba(255, 255, 255, 0.607);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.span1 {
+    font: bolder;
+    color: white;
+}
+.span2 {
+    font: bolder;
+    color: rgba(255, 255, 255, 0.416);
+}
+
+h2 {
+    translate: 170px 100px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    width: 400px;
+}
+
+.moove {
+    display: flex;
+    gap: 40px;
+    translate: 740px 200px;
+    width: 400px;
+    position: absolute;
+    z-index: 8;
+}
+.btn {
+    background-color: rgba(255, 255, 255, 0) ;
+    border-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0.528);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 10;
+    text-decoration: none;
+}
+.cute :hover {
+    text-decoration: underline;
+}
+.hr2 {
+    background-color:  rgba(255, 255, 255, 0.096);
+    translate: 360px 450px;
+    backdrop-filter: blur(10px);
+    width: 415px;
+    height: 2px;
+    border: none;
+}
+.container {
+    height: 500px;
+    width: 300px;
+    position: relative;
+}
+
+.one { 
+   z-index: 1 ;
+   position: absolute;
+   display: flex;
+   justify-content: space-between;
+}
+.two { 
+    z-index: 2;
+    position: absolute;
+     display: flex;
+   justify-content: space-between;
+}
+.three { 
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.four {
+    z-index: 4;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.img1 {
+    height: 400px;
+    width: 400px;
+    translate: 200px 110px;
+}
+.img2 {
+    rotate: 180deg;
+    transition: 2s;
+}
+.h1 {
+    display: none;
+    translate: 348px 141px;
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+.p1 {
+    display: none;
+    translate: 266px 240px;
+    height: 100px;
+    width: 300px;
+    color: white;
+}
+.p2 {
+    display: flex;
+    gap: 120px;
+    width: 500px;
+    translate: 750px 450px;
+    color: white;
+}
+.p3 {
+    display: none;
+    gap: 180px;
+    translate: -30px 450px;
+    height: 40px;
+    width: 500px;
+    color: white;
+}

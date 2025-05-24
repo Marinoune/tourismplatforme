@@ -1,0 +1,87 @@
+body {
+    height: 100%;
+    width: auto;
+    background-image: url("./assets/home/background-home-desktop.jpg");
+    background-repeat: no-repeat;
+    margin: 0%;
+    position: absolute;
+}
+.one {
+    display: flex;
+    justify-content: space-between;
+
+}
+hr {
+    background-color:  rgba(255, 255, 255, 0.096);
+    translate: -535px 75px;
+    backdrop-filter: blur(10px);
+    width: 415px;
+    height: 2px;
+    border: none;
+}
+nav {
+    display: flex;
+    gap: 40px;
+    translate: 580px 50px;
+    height: 70px;
+    width: 700px;
+    background-color:  rgba(255, 255, 255, 0.096);
+    backdrop-filter: blur(10px);
+}
+.logo {
+    translate: -1055px 63px;
+    height: 40px;
+
+}
+.links {
+    position: relative;
+    translate: 150px 25px;
+    color: rgba(255, 255, 255, 0.607);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+span {
+    font: bolder;
+    color: white;
+}
+.two{
+    translate: 980px 380px;
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    background-color: white;
+    box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.2),
+                -30px -30px 60px rgba(255, 255, 255, 0.8);
+}
+.h3one {
+ color: rgba(0, 0, 0, 0.818);
+font-family: fantasy;
+translate: 28px 78px;
+font-size: 25px;
+}
+.h3two {
+color: rgba(255, 255, 255, 0.762);
+position: relative;
+translate: 170px 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 28px;
+font-weight: 100;
+width: 415px;
+}
+h1 {
+color: white;
+position: relative;
+translate: 180px -30px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 100px;
+width: 415px;
+}
+h5 {
+color: rgba(255, 255, 255, 0.485);
+position: relative;
+translate: 170px -70px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+font-weight: 100;
+width: 415px;
+}

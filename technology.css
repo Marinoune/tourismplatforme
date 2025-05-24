@@ -1,0 +1,131 @@
+body {
+    height: auto;
+    width: auto;
+    background-image: url("./assets/technology/background-technology-desktop.jpg");
+    background-repeat: no-repeat;
+    margin: 0%;
+    position: absolute;
+}
+.one1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+.hr1 {
+    background-color:  rgba(255, 255, 255, 0.096);
+    translate: -535px 75px;
+    backdrop-filter: blur(10px);
+    width: 415px;
+    height: 2px;
+    border: none;
+}
+nav {
+    display: flex;
+    gap: 40px;
+    translate: 580px 50px;
+    height: 70px;
+    width: 700px;
+    background-color:  rgba(255, 255, 255, 0.096);
+    backdrop-filter: blur(10px);
+}
+.logo {
+    translate: -1055px 63px;
+    height: 40px;
+
+}
+.links {
+    position: relative;
+    translate: 150px 25px;
+    color: rgba(255, 255, 255, 0.607);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.span1 {
+    font: bolder;
+    color: white;
+}
+.span2 {
+    font: bolder;
+    color: rgba(255, 255, 255, 0.416);
+}
+
+h2 {
+    translate: 170px 100px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    width: 400px;
+}
+.moove {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    translate: 70px 180px;
+    width: 400px;
+    position: absolute;
+    z-index: 8;
+}
+.btn {
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    color: rgba(193, 188, 188, 0.573);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 10;
+    text-decoration: none;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.756);
+}
+.one {
+    display: none;
+    height: 500px;
+    position: absolute ;
+    z-index: 1;
+}
+.two {
+    display: none;
+    height: 500px;
+    position: absolute ;
+    z-index: 2;
+}
+.three {
+    display: none;
+    height: 500px;
+    position: absolute ;
+    z-index: 3;
+}
+.img {
+    width: 400px;
+    height: 450px;
+    translate: 750px 70px  ;
+}
+.h3 {
+color: rgba(255, 255, 255, 0.762);
+position: absolute;
+translate: 170px -350px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 30px;
+font-weight: 100;
+width: 415px;
+}
+.h1 {
+color: white;
+position: absolute;
+translate: 180px -270px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 40px;
+width: 415px;
+}
+.p {
+color: rgba(255, 255, 255, 0.485);
+position: absolute;
+translate: 170px -190px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 23px;
+font-weight: 100;
+width: 415px;
+}
